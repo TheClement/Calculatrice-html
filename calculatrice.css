@@ -1,0 +1,23 @@
+.grid-main {
+  display: grid;
+  width: 400px;
+  height: 400px;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+.grid-ecran {
+  grid-row: 1;
+  grid-column: 1;
+  place-items: center;
+  background-color: rgba(77, 75, 223, 0.61);
+}
+
+.grid-chiffre {
+  display: grid;
+  place-items: center;
+}
+
+.grid-symbole {
+  display: grid;
+  place-items: center;
+}
